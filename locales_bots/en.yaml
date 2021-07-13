@@ -1,27 +1,27 @@
-language_info:
-  is_enabled: true
-  name: English
+Xogta_luuqada:
+  Waa_la_aqbalay: Run
+  magaca: somali
 
-start:
-  choose_language: 'Please choose your language:'
-  language_changed: OK, your language saved.
+bilaw:
+  Dooro_luuqad: 'Fadlan dooro luuqadaada:'
+  Luuqada_way_badalntay: haye,Luuqadaadii wey kuu saarantay .
   copyright: |
-    This bot was made using @LivegramBot.
+    botkan waa la sameeyey iyada oo la isticmaalayo @LivegramBot.
     
-cannot_forward: |
-  You can't forward someone else's messages.
+Lama_wadaagi_karo: |
+  ma wadaagi kartid qof kale messagekiisa.
   
-cannot_edit: |
-  If you want that the receiver can be able to see the changes, send your message as new.
+Lama_ogola_edit: |
+  Hadii aad rabtid Arinkaan message helaha wuxuu awoodaa in uu arko isbadalka, messagekaaga dib u soo dir
 
-welcome: |-
+soo_dhawoow: |-
   Hello!
   
-  You can contact us using this bot.
-after_sending: (strings are not specified)
+  waxaad naga soo xiriiri kartaa botkan.
+kadib_dirista: (strings lama xaqiijin)
 
 ban: |
-  You have been banned ${until ? 'until ' + until + ' UTC' : 'forever'}.${reason ? '\n\nReason: ' + reason : ''}
+  waa lagaa xanibal halkan ${until ? 'until ' + until + ' UTC' : 'forever'}.${reason ? '\n\nReason: ' + reason : ''}
 
 unban: |
-  You have been unbanned.
+  waa lagaa qaaday xanibaadii.
